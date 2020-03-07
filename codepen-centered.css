@@ -5,11 +5,13 @@ html.centered body {
   -ms-flex-align: center!important;
   align-items: center!important;
   width: 100%!important;
-  background: #53808C;
   min-height: 100vh;
   font-size: 60px;
   font-weight: 200;
-  color: #fff;
   text-align: center;
   justify-content: center;
+}
+html.centered.blue body {
+  background: #53808C;
+  color: #fff;
 }
